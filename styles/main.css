@@ -1,15 +1,17 @@
 :root {
   background: rgb(202, 2, 2);
-  height: 100%;
-  display: flex;
-  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
   /*margin: auto;*/
+  width: 100%;
+  height: 70%;
   border-radius: 5%;
   border: none;
   margin: 1%;
+  display: block;
+  justify-content: center;
 }
 
 #contato {
@@ -18,12 +20,12 @@
   justify-content: center;
   border: none;
   color: white;
-  margin: 1% 25%;
+  margin: 1% 2%;
 }
 
 .links {
   margin: top; /*5% 10%;*/
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   backdrop-filter: blur(4px);
@@ -74,8 +76,8 @@
 }
 
 .rodape {
-  margin: 20px;
-  font-size: 18px;
+  margin: 2px;
+  font-size: 14px;
   font-weight: bold;
   border: none;
   color: white;
