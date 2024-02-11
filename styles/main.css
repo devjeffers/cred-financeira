@@ -21,10 +21,11 @@
   border: none;
   color: white;
   margin: 1% 2%;
+  font-size: 17px;
 }
 
 .links {
-  margin: top; /*5% 10%;*/
+  margin: 3%;
   font-size: 17px;
   font-weight: bold;
   color: rgb(0, 0, 0);
@@ -34,6 +35,7 @@
 }
 .links a {
   text-decoration: none;
+  border: none;
   color: white;
   display: flex;
   justify-content: center;
